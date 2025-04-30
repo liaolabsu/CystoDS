@@ -61,3 +61,26 @@ python sample_inference/inference.py \
     --img_path test.jpg \
     --checkpoint trained_models/resnet50_cystods.pth \
     --config configs/resnet50_cystods.py
+
+---
+
+## 📋 Evaluation Results
+
+| Model              | Accuracy | Precision | Recall | F1-Score |
+|-------------------|----------|-----------|--------|----------|
+| ResNet-50         | XX.X%    | XX.X%     | XX.X%  | XX.X%    |
+| EfficientNet-B0   | XX.X%    | XX.X%     | XX.X%  | XX.X%    |
+| HRNet-W18         | XX.X%    | XX.X%     | XX.X%  | XX.X%    |
+| Swin-Tiny         | XX.X%    | XX.X%     | XX.X%  | XX.X%    |
+
+---
+
+## 📌 Citation
+
+@article{qiu2025cystods,
+  title={CystoDS, a multi-class image dataset for computer-assisted cystoscopy},
+  author={Tim and et al.},
+  journal={Scientific Data},
+  year={2025}
+}
+
