@@ -23,7 +23,7 @@ This repository provides:
   - Resection scar
   - Instrument
 - **Source**: Cystoscopy videos with pathology-confirmed labeling
-- **Annotations**: Region-level, expert-verified
+- **Annotations**: label-level, expert-verified
 
 ---
 
