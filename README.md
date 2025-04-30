@@ -56,7 +56,6 @@ All checkpoints are fine-tuned on CystoDS.
 
 You can run inference using a trained model and sample config:
 
-```bash
 python sample_inference/inference.py \
     --img_path test.jpg \
     --checkpoint trained_models/resnet50_cystods.pth \
