@@ -75,8 +75,8 @@ python sample_inference/inference.py \
 
 ## 📌 Citation
 
-@article{qiu2025cystods,
-  title={CystoDS, a multi-class image dataset for computer-assisted cystoscopy},
+@article{
+  title={CystoDS: a multiclass endoscopy image dataset for artificial intelligence-assisted bladder cancer detection},
   author={Tim and et al.},
   journal={Scientific Data},
   year={2025}
