@@ -1,8 +1,6 @@
 # CystoDS, a multi-class image dataset for computer-assisted cystoscopy
 **CystoDS** is a curated image dataset for bladder cancer research, designed for the development and validation of AI-based cystoscopic image classification models. It includes 8,067 images from 160 patients labelled with five classes and 22 subclasses, along with segmentation data for 768 of the images.
 
-![CystoDS classes](classes.png)
-
 This repository provides:
 - Dataset overview
 - Model evaluation results
@@ -25,6 +23,7 @@ This repository provides:
 - **Source**: Cystoscopy videos with pathology-confirmed labeling
 - **Annotations**: label-level, expert-verified
 
+![CystoDS classes](classes.png)
 ---
 
 ## 🧠 Models Used for Evaluation
