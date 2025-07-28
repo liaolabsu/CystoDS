@@ -8,10 +8,9 @@ This repository provides:
 
 > 🔧 Code is not provided here since all models were implemented using [OpenMMLab's MMPRETRAIN](https://github.com/open-mmlab/mmpretrain).
 
+---
 
-> ---
->
-> ## 📦 Dataset Summary
+## 📦 Dataset Summary
 
 - **Total Images**: 8,067
 - **Categories**:
