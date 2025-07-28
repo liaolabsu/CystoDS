@@ -50,17 +50,6 @@ All checkpoints are fine-tuned on CystoDS.
 
 ---
 
-## 🧪 Inference Example (Optional)
-
-You can run inference using a trained model and sample config:
-
-python sample_inference/inference.py \
-    --img_path test.jpg \
-    --checkpoint trained_models/resnet50_cystods.pth \
-    --config configs/resnet50_cystods.py
-
----
-
 ## 📋 Evaluation Results
 
 | Model              | Sensitivity | Specificity | Accuracy | Precision | F1-Score |
