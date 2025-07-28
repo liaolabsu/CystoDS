@@ -33,18 +33,18 @@ We validated CystoDS using four backbone architectures from MMPRETRAIN:
 - HRNet
 - Swin-Transformer
 
-See [MODEL_ZOO.md](./MODEL_ZOO.md) for details and performance.
+See [OpenMMLab's MMPRETRAIN](https://github.com/open-mmlab/mmpretrain) for details.
 
 ---
 
 ## 🚀 Download Trained Models
 
-| Model                | Download Link                                 |
-|---------------------|-----------------------------------------------|
-| ResNet-50           | [Google Drive](#) / [Baidu Pan](#)           |
-| EfficientNet-B0     | [Google Drive](#) / [Baidu Pan](#)           |
-| HRNet-W18           | [Google Drive](#) / [Baidu Pan](#)           |
-| Swin-Tiny           | [Google Drive](#) / [Baidu Pan](#)           |
+| Model                | Download Link             |
+|---------------------|----------------------------|
+| ResNet-50           | [Google Drive](#)          |
+| EfficientNet-B0     | [Google Drive](#)          |
+| HRNet-W18           | [Google Drive](#)          |
+| Swin-Tiny           | [Google Drive](#)          |
 
 All checkpoints are fine-tuned on CystoDS.
 
