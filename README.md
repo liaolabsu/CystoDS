@@ -41,10 +41,10 @@ See [OpenMMLab's MMPRETRAIN](https://github.com/open-mmlab/mmpretrain) for detai
 
 | Model                | Download Link             |
 |---------------------|----------------------------|
-| ResNet-50           | [Google Drive](#)          |
+| ResNet-152           | [Google Drive](#)          |
 | EfficientNet-B0     | [Google Drive](#)          |
 | HRNet-W18           | [Google Drive](#)          |
-| Swin-Tiny           | [Google Drive](#)          |
+| Swin-Transformer-Large           | [Google Drive](#)          |
 
 All checkpoints are fine-tuned on CystoDS.
 
@@ -53,11 +53,11 @@ All checkpoints are fine-tuned on CystoDS.
 ## 📋 Evaluation Results
 
 | Model              | Sensitivity | Specificity | Accuracy | Precision | F1-Score |
-|-------------------|-------------|-------------|----------|-----------|----------|
-| ResNet           | 0.692       | 0.787       | 0.731    | 0.826     | 0.753    |
-| ResNeXt          | 0.754       | 0.787       | 0.767    | 0.838     | 0.794    |
-| HRNet            | 0.692       | 0.910       | 0.781    | 0.918     | 0.789    |
-| Swin-Transformer | 0.846       | 0.809       | 0.831    | 0.866     | 0.856    |
+|------------------------|-------------|-------------|----------|-----------|----------|
+| ResNet-152             | 0.692       | 0.787       | 0.731    | 0.826     | 0.753    |
+| ResNeXt                | 0.754       | 0.787       | 0.767    | 0.838     | 0.794    |
+| HRNet                  | 0.692       | 0.910       | 0.781    | 0.918     | 0.789    |
+| Swin-Transformer-Large | 0.846       | 0.809       | 0.831    | 0.866     | 0.856    |
 
 
 ---
