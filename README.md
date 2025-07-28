@@ -13,15 +13,13 @@ This repository provides:
 >
 > ## 📦 Dataset Summary
 
-- **Total Images**: 68,944
+- **Total Images**: 8,067
 - **Categories**:
-  - Malignant tumor
-  - Benign lesion
-  - Normal mucosa
-  - Ureteral orifice
-  - Foreign body
-  - Resection scar
-  - Instrument
+  - malignant
+  - non-malignant
+  - anatomical landmarks
+  - foreign bodies
+  - normal mucosa
 - **Source**: Cystoscopy videos with pathology-confirmed labeling
 - **Annotations**: label-level, expert-verified
 
@@ -30,10 +28,10 @@ This repository provides:
 ## 🧠 Models Used for Evaluation
 
 We validated CystoDS using four backbone architectures from MMPRETRAIN:
-- ResNet-50
-- EfficientNet-B0
-- HRNet-W18
-- Swin-Transformer-Tiny
+- ResNet
+- ResNeXt
+- HRNet
+- Swin-Transformer
 
 See [MODEL_ZOO.md](./MODEL_ZOO.md) for details and performance.
 
@@ -65,12 +63,12 @@ python sample_inference/inference.py \
 
 ## 📋 Evaluation Results
 
-| Model              | Accuracy | Precision | Recall | F1-Score |
-|-------------------|----------|-----------|--------|----------|
-| ResNet-50         | XX.X%    | XX.X%     | XX.X%  | XX.X%    |
-| EfficientNet-B0   | XX.X%    | XX.X%     | XX.X%  | XX.X%    |
-| HRNet-W18         | XX.X%    | XX.X%     | XX.X%  | XX.X%    |
-| Swin-Tiny         | XX.X%    | XX.X%     | XX.X%  | XX.X%    |
+| Model              | Sensitivity | Specificity | Accuracy | Precision | F1-Score |
+|-------- -----------|-------------|-------------|----------|-----------|----------|
+| ResNet             | 0.692       | 0.787       | 0.731    | 0.826     | 0.753    |
+| ResNeXt            | 0.754       | 0.787       | 0.767    | 0.838     | 0.794    |
+| HRNet              | 0.692       | 0.910       | 0.781    | 0.918     | 0.789    |
+| Swin-Transformer   | 0.846       | 0.809       | 0.831    | 0.866     | 0.856    |
 
 ---
 
