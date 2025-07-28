@@ -3,8 +3,9 @@
 
 This repository provides:
 - Dataset overview
-- Model evaluation results
+- Models Used for Evaluation
 - Download links for trained models
+- Model evaluation results
 
 > 🔧 Code is not provided here since all models were implemented using [OpenMMLab's MMPRETRAIN](https://github.com/open-mmlab/mmpretrain).
 
