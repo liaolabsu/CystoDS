@@ -42,8 +42,8 @@ See [OpenMMLab's MMPRETRAIN](https://github.com/open-mmlab/mmpretrain) for detai
 | Model                | Download Link             |
 |---------------------|----------------------------|
 | ResNet-152           | [Google Drive](#)          |
-| EfficientNet-B0     | [Google Drive](#)          |
-| HRNet-W18           | [Google Drive](#)          |
+| EfficientNet     | [Google Drive](#)          |
+| HRNet           | [Google Drive](#)          |
 | Swin-Transformer-Large           | [Google Drive](#)          |
 
 All checkpoints are fine-tuned on CystoDS.
