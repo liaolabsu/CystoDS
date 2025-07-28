@@ -5,10 +5,10 @@ This repository provides:
 - Dataset overview
 - Model evaluation results
 - Download links for trained models
-- Optional scripts for inference demonstration
 
 > 🔧 Code is not provided here since all models were implemented using [OpenMMLab's MMPRETRAIN](https://github.com/open-mmlab/mmpretrain).
->
+
+
 > ---
 >
 > ## 📦 Dataset Summary
